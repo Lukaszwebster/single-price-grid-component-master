@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+body {
+	background-color: hsl(204, 43%, 93%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.main-box {
+	margin: 20px;
+	border-radius: 4px;
+	overflow: hidden;
+	max-width: 400px;
+}
+.box1 {
+	background-color: white;
+}
+.box2 {
+	background-color: hsl(179, 62%, 43%);
+	width: 100%;
+}
+.box3 {
+	background-color: hsl(177, 46.8%, 49.4%);
+	width: 100%;
+}
+.title1box1 {
+	color: hsl(179, 62%, 43%);
+	font-size: 22px;
+	font-weight: 700;
+}
+.title2box1 {
+	color: hsl(71, 73%, 54%);
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 400;
+}
+.description-box1 {
+	margin-top: 10px;
+	font-weight: 400;
+	color: hsl(218, 22%, 67%);
+	line-height: 30px;
+}
+.box-1-wrapper {
+	padding: 20px;
+	font-family: "Karla", sans-serif;
+}
+.box-2-wrapper {
+	padding: 20px;
+	font-family: "Karla", sans-serif;
+}
+.box-3-wrapper {
+	padding: 20px;
+	font-family: "Karla", sans-serif;
+}
+.title1box2 {
+	color: hsl(204, 43%, 93%);
+	font-size: 20px;
+	font-weight: 400;
+}
+.price {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.dollar {
+	color: hsl(204, 43%, 93%);
+	font-size: 34px;
+	font-weight: 400;
+}
+.per {
+	color: hsl(204, 43%, 93%);
+	font-size: 18px;
+}
+.description2box2 {
+	color: hsl(204, 43%, 93%);
+	font-size: 18px;
+}
+.btn {
+	background-color: hsl(71, 73%, 54%);
+	display: block;
+	margin: 0 auto;
+	padding: 14px 110px 14px 110px;
+	color: hsl(204, 43%, 93%);
+	border-radius: 4px;
+	margin-top: 20px;
+	box-shadow: 2px 8px 10px rgb(39 160 155);
+}
+.title1box3 {
+	color: hsl(204, 43%, 93%);
+	font-size: 18px;
+}
+.description-box3 {
+	color: hsl(204, 43%, 93%);
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+@media (min-width: 1000px) {
+	.main-box {
+		max-width: 700px;
+	}
+	.box2andbox3 {
+		display: flex;
+		width: 100%;
+	}
+}
